@@ -38,9 +38,9 @@ export default function RootLayout({
             height={168}
             className="rounded-xl"
           />
+          <p className="w-4/5">Esse site só roda em celular {`:)`}</p>
           <p className="w-4/5">
-            Esse site só roda em celular, não gostou? Pega o código e faz a
-            responsividade {`:)`}
+            Cuida, aperta f12 e vê na resolução de celular!!!!
           </p>
         </div>
       </main>
