@@ -18,13 +18,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`md:hidden md:opacity-0 md:h-none md:w-none ${inter.className}`}
+        className={`md:hidden overflow-x-hidden md:opacity-0 md:h-none md:w-none ${inter.className}`}
       >
         {children}
       </body>
 
       <main
-        className={`hidden absolute top-0 md:flex w-screen h-screen items-center justify-center bg-gradient-to-b from-[#BFFFC6] to-[#00DC72] ${inter.className}`}
+        className={`hidden overflow-x-hidden absolute top-0 md:flex w-screen h-screen items-center justify-center bg-gradient-to-b from-[#BFFFC6] to-[#00DC72] ${inter.className}`}
       >
         <div className="flex flex-col bg-white rounded-xl px-12 w-fit text-center py-6 gap-6 items-center">
           <h1 className="text-3xl">
