@@ -7,7 +7,7 @@ const formLink =
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen text-gray flex-col items-center justify-between bg-white">
+    <main className="flex min-h-screen max-w-screen w-screen overflow-x-hidden text-gray flex-col items-center justify-between bg-white">
       <section
         id="hero"
         className="h-full relative w-screen flex gap-8 flex-col items-center justify-start py-24 bg-gradient-to-b from-[#BFFFC6] to-[#00DC72]"
